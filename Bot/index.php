@@ -55,13 +55,13 @@ $short = $get['shortenedUrl'];
 if($get['shortenedUrl']){
 bot('sendmessage', [
                 'chat_id' =>$chat_id,
-                'text'=>"**Thank you for using me☺
+                'text'=>"***Thank you for using me☺
 
-HERE IS YOUR SHORTEN LINK:-**`$short`
+HERE IS YOUR SHORTEN LINK:-***`$short`
 
-**LONG URL:** `$text`
+***LONG URL:***`$text`
 
-**Shorten by $BOT_USERNAME**",
+***Shorten by $BOT_USERNAME***",
    'parse_mode'=>"HTML",
 ]);
    
