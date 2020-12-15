@@ -48,13 +48,13 @@ Just send me a url to shorten.***",
 
 if($text !== '/start'){
 
-$get = json_decode(file_get_contents("https://gplinks.in/api?api=dd5bcb86437fb6e05e1a2f7797c26caddb4f92a5&url=amazon.com"),true);
-$short = $get['shortenedUrl'];
+$get = json_decode(file_get_contents("https://gplinks.in/api?api=dd5bcb86437fb6e05e1a2f7797c26caddb4f92a5&url=$text"),true);
+$link = $get['shortenedUrl'];
 
 if($get['shortenedUrl']){
 bot('sendmessage', [
                 'chat_id' =>$chat_id,
-                'text'=>"SHORTENED URL:- $short",
+                'text'=>"$GENERATED",
    'parse_mode'=>"MarkDown",
 ]);
    
