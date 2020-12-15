@@ -9,9 +9,7 @@ $BOT_USERNAME = $_ENV['BOT_USERNAME'];
 $GP_API_KEY = $_ENV['GP_API_KEY'];
 
 //=========OTHERS=======//
-$START_MESSAGE = $_ENV["START_MESSAGE"] = <<<EOM
-Thank you for using me
+$START_MESSAGE = $_ENV["START_MESSAGE"] = "Thank you for using me
 
-<a href="https://github.com/BENCHAMXD/GPLINKGPLINKSBOT">TEST</a>
-EOM;
+<a href="https://github.com/BENCHAMXD/GPLINKGPLINKSBOT">TEST</a>";
 ?>
