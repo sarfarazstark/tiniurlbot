@@ -55,7 +55,9 @@ $link = $get['shortenedUrl'];
 if($get['shortenedUrl']){
 bot('sendmessage', [
                 'chat_id' =>$chat_id,
-                'text'=>"$GENERATED",
+                'text'=>"Thank you for using me☺
+
+HERE IS YOUR SHORTEN <a href="$link">LINK</a>",
    'parse_mode'=>"HTML",
 ]);
    
