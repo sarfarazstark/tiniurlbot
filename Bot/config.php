@@ -9,10 +9,7 @@ $BOT_USERNAME = $_ENV['BOT_USERNAME'];
 $GP_API_KEY = $_ENV['GP_API_KEY'];
 
 //===========LINK GENERATED MESSAGE=========//
-$GENERATED = $_ENV["LINK_GENERATED_MESSAGE"] = <<<EOM
-Thank you for using me☺
+$GENERATED = $_ENV["LINK_GENERATED_MESSAGE"] = "Thank you for using me☺
 
-HERE IS YOUR SHORTEN <a href="$link">LINK</a>
-
-EOM;
+HERE IS YOUR SHORTEN <a href="$link">LINK</a>"
 ?>
