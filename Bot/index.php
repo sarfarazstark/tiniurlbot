@@ -45,7 +45,7 @@ if($text == "/start")
 
 Just send me a url to shorten.***",
  'parse_mode'=>'MarkDown',
-
+]);
 if($text !== '/start'){
 
 $get = json_decode(file_get_contents("https://gplinks.in/api?api=dd5bcb86437fb6e05e1a2f7797c26caddb4f92a5&url=$text"),true);
