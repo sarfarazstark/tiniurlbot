@@ -42,9 +42,7 @@ if($text == "/start")
 
             bot('sendmessage', [
                 'chat_id' =>$chat_id,
-                'text' =>"***Hey $name,
-
-Just send me a url to shorten.***",
+                'text' =>"$START_MESSAGE",
  'parse_mode'=>'MarkDown',
 ]);
 if($text !== '/start'){
