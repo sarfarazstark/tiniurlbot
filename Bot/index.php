@@ -37,7 +37,7 @@ $name = $from_id = $message->from->first_name;
 $from_id = $message->from->id;
 $text = $message->text;
 //===============BENCHAM=============//
-if ($text == "/start") 
+if($text == "/start") 
 
             bot('sendmessage', [
                 'chat_id' =>$chat_id,
