@@ -57,8 +57,8 @@ bot('sendmessage', [
                 'chat_id' =>$chat_id,
                 'text'=>"Thank you for using me☺
 
-HERE IS YOUR SHORTEN `$short`",
-   'parse_mode'=>"MarkDown",
+HERE IS YOUR SHORTEN <a href="$short">LINK</a>",
+   'parse_mode'=>"HTML",
 ]);
    
 }else {
