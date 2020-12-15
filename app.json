@@ -1,1 +1,33 @@
 
+{
+    "name": "JIO SAAVAN BOT",
+    "description": "A PHP Telegram Bot To Download Songs From Jio Saavan.",
+    "keywords": [
+        "Songs",
+        "Jio-Saavan",
+        "Bot"
+    ],
+    "logo": "https://telegra.ph/file/a251cb92f717d021f7fab.jpg",
+    "repository": "https://github.com/Benchamxd/Bin-Checker",
+    "success_url": "/",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "your Telegram Bot Token, from @BotFather"
+
+        },"BOT_USERNAME": {
+            "description": "CAPTION FOR YOUR SONG AFTER DOWNLOADED"
+        },
+"NOT_JOINED_MESSAGE": {
+            "description": "A MESSAGE IF THE USER IS NOT JOINED"
+
+        }
+        
+    },
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "image": "heroku/php"
+}
