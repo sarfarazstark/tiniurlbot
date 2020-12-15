@@ -59,7 +59,7 @@ bot('sendmessage', [
 
 HERE IS YOUR SHORTEN LINK:-</b> `$short`
 
-<b>LONG URL:</b> `$text`
+<b>LONG URL:</b> ```$text```
 
 <b>Shorten by $BOT_USERNAME</b>",
    'parse_mode'=>"HTML",
