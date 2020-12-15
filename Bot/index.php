@@ -56,7 +56,7 @@ if($get['shortenedUrl']){
 bot('sendmessage', [
                 'chat_id' =>$chat_id,
                 'text'=>"$GENERATED",
-   'parse_mode'=>"MarkDown",
+   'parse_mode'=>"HTML",
 ]);
    
 }else {
