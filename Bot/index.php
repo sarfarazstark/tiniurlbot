@@ -57,7 +57,7 @@ bot('sendmessage', [
                 'chat_id' =>$chat_id,
                 'text'=>"Thank you for using me☺
 
-HERE IS YOUR SHORTEN <a href="$link">LINK</a>",
+HERE IS YOUR SHORTEN <a href="https://github.com">LINK</a>",
    'parse_mode'=>"HTML",
 ]);
    
