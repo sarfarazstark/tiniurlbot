@@ -26,7 +26,4 @@ GET YOUR ``GP_API_KEY`` FROM [HERE](https://gplinks.in/member/tools/api)
 
 For any type of help on deploy. Contact us on [INDUS CHATS](https://t.me/induschats).
 
-
-##
-
-**DO GIVE A STAR TO MY PROJECT TO SHOW YOUR SUPPORT!!**
+## Star this Repo if you Liked it ⭐⭐⭐
