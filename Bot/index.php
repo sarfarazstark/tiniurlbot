@@ -62,7 +62,7 @@ HERE IS YOUR SHORTEN LINK:-***`$short`
 ***LONG URL:***`$text`
 
 ***Shorten by $BOT_USERNAME***",
-   'parse_mode'=>"HTML",
+   'parse_mode'=>"MarkDown",
 ]);
    
 }else {
