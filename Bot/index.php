@@ -49,7 +49,7 @@ Just send me a url to shorten.***",
 ]);
 if($text !== '/start'){
 
-$get = json_decode(file_get_contents("https://gplinks.in/api?api=dd5bcb86437fb6e05e1a2f7797c26caddb4f92a5&url=$text"),true);
+$get = json_decode(file_get_contents("https://gplinks.in/api?api=$GP_API_KEY&url=$text"),true);
 $short = $get['shortenedUrl'];
 
 if($get['shortenedUrl']){
@@ -57,7 +57,7 @@ bot('sendmessage', [
                 'chat_id' =>$chat_id,
                 'text'=>"<b>Thank you for using me☺
 
-HERE IS YOUR SHORTEN LINK:-</b> <code>$short</code>
+YOUR SHORTEN URL: </b> <code>$short</code>
 
 <b>LONG URL:</b> <code>$text</code>
 
