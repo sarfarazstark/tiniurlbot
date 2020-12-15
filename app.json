@@ -17,7 +17,7 @@
         },"BOT_USERNAME": {
             "description": "CAPTION FOR YOUR SONG AFTER DOWNLOADED"
         },
-"NOT_JOINED_MESSAGE": {
+"GP_API_KEY": {
             "description": "A MESSAGE IF THE USER IS NOT JOINED"
 
         }
