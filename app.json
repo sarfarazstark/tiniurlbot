@@ -1,7 +1,7 @@
 
 {
-    "name": "JIO SAAVAN BOT",
-    "description": "A PHP Telegram Bot To Download Songs From Jio Saavan.",
+    "name": "GP LINKS BOT",
+    "description": "A PHP Telegram Bot To Short Your Links Using GP Links API",
     "keywords": [
         "Songs",
         "Jio-Saavan",
@@ -15,10 +15,10 @@
             "description": "your Telegram Bot Token, from @BotFather"
 
         },"BOT_USERNAME": {
-            "description": "CAPTION FOR YOUR SONG AFTER DOWNLOADED"
+            "description": "USER NAME OF YOUR BOT"
         },
 "GP_API_KEY": {
-            "description": "A MESSAGE IF THE USER IS NOT JOINED"
+            "description": "GET YOUR API KEY FROM https://gplinks.in/member/tools/api"
 
         }
         
