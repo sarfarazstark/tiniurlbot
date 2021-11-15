@@ -8,7 +8,7 @@
         "Bot"
     ],
     "logo": "https://telegra.ph/file/a251cb92f717d021f7fab.jpg",
-    "repository": "https://github.com/Benchamxd/Bin-Checker",
+    "repository": "https://github.com/sarfarazstark/tiniurlbot",
     "success_url": "/",
     "env": {
         "BOT_TOKEN": {
