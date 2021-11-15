@@ -15,6 +15,8 @@ $START_MESSAGE = $_ENV["START_MESSAGE"] =<<<EOM
 
 Just Send Me A Long Url. I Will Give You It's Short Url.
 
-Join My Channel For Updates @bluewhalebots </b>
+
+Join Our Channel For Bot Updates <a href="https://t.me/BlueWhalebots">HERE</a></b>
 EOM;
 ?>
+
